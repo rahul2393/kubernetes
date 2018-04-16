@@ -3,6 +3,30 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/couchbase/go-couchbase"
+  packages = ["."]
+  revision = "9701ef574bd0f46ac0244a8a8b90a147dedd005a"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/couchbase/gomemcached"
+  packages = [
+    ".",
+    "client"
+  ]
+  revision = "b087bd7dcdc19b9f44d2ae865833a86fe242723f"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/couchbase/goutils"
+  packages = [
+    "logging",
+    "scramsha"
+  ]
+  revision = "acad84c4b0f436ccf72a2e532029598bc2b970f6"
+
+[[projects]]
+  branch = "master"
   name = "github.com/gin-contrib/sse"
   packages = ["."]
   revision = "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae"
@@ -104,6 +128,12 @@
 
 [[projects]]
   branch = "master"
+  name = "golang.org/x/crypto"
+  packages = ["pbkdf2"]
+  revision = "d6449816ce06963d9d136eee5a56fca5b0616e7e"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
   revision = "f6f352972f061230a99fbf49d1eb8073ebdb36cb"
@@ -123,6 +153,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f1f5c581d60af3e895aff65b27ee7f534a465c6c82d4b198e6789175f1b71c7e"
+  inputs-digest = "b41acf22d4d67ac444b97bb8f0b7f1a72d6a517daf6dcb57e89bef3cd3f0108b"
   solver-name = "gps-cdcl"
   solver-version = 1

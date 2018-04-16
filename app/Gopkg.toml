@@ -46,3 +46,7 @@
   name = "github.com/go-redis/redis"
   branch = "master"
 
+[[constraint]]
+  name = "github.com/couchbase/go-couchbase"
+  branch = "master"
+
